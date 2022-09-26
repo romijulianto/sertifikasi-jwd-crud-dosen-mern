@@ -1,0 +1,19 @@
+| KELOLA DATABASE DOSEN |
+Aplikasi tersebut untuk mengolah data DOSEN
+1. CRUD Data Dosen
+2. CDUD Data Mata Kuliah
+
+| ENTITY RELATIONSHIP DIAGRAM |
+| TABEL |
+|- DOSEN 
+   |- id nidn name gender address -|
+
+|- MATAKULIAH
+   |- id matkul sks semester -|
+
+|- PENGAMPU MATAKULIAH
+|  |- nidn name id_matkul matkul sks -|
+
+
+Note: Pengumpulan kode program di zip
+      Jawaban praktikum bisa disatukan dengan teori 
